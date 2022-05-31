@@ -14,6 +14,54 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".HR.HR_Add_Update_Company"
+            android:exported="false" />
+        <activity
+            android:name=".HR.HR_Add_Update_Job"
+            android:exported="false" />
+        <activity
+            android:name=".HR.HR_Company_detail"
+            android:exported="false" />
+        <activity
+            android:name=".HR.HR_JobDetail"
+            android:exported="false" />
+        <activity
+            android:name=".HR.InfoCandidateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Applicant.Apply_to_job"
+            android:exported="false" />
+        <activity
+            android:name=".Applicant.JobDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HR.HrHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Applicant.ApplicantHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Applicant.ChooseDanhmucnganhngheActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Applicant.UpdateInfoPersionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResertPass.ResertpassEnternewpassActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResertPass.ResertpassEnterotpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResertPass.ResertpassEnterphoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
