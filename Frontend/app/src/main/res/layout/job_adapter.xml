@@ -103,11 +103,11 @@
                     android:backgroundTint="#C6000000"/>
 
                 <TextView
-                    android:id="@+id/tv_skills"
+                    android:id="@+id/tv_soluongtuyendung"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Yêu cầu hiển thị ở đây"
+                    android:text="Số lượng tuyển dụng"
                     android:textColor="#C6000000"
                     android:textSize="5pt" />
             </TableRow>
@@ -123,11 +123,11 @@
                     android:backgroundTint="#C6000000"/>
 
                 <TextView
-                    android:id="@+id/tv_amount"
+                    android:id="@+id/tv_timework"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
-                    android:text="Số lượng tuyển dụng hiển thị ở đây"
+                    android:text="Loại hình công việc - Fulltime/Pathtime.."
                     android:textColor="#C6000000"
                     android:textSize="5pt" />
             </TableRow>
