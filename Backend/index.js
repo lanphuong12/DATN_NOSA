@@ -18,7 +18,7 @@ const swaggerUi = require('swagger-ui-express');
 //read swagger from yaml
 const YAML = require('yamljs');
 //read yaml file 
-const swaggerSpec = YAML.load('./swagger/swagger.yaml');
+// const swaggerSpec = YAML.load('./swagger/swagger.yaml');
 // pasert the cookie to read 
 const cookieParser = require("cookie-parser");
 // use sessions to get token from
@@ -48,12 +48,10 @@ app.use(cookieParser());
 //connect to database
 require('./Dao/Connection.js');
     //use swagger
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, {
-    explorer: true
-}));
+
 //set up cors
 app.use(cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: ["*"],
     methods: ["POST", "PUT", "GET", "OPTIONS", "HEAD"],
     credentials: true,
 }));
@@ -72,18 +70,6 @@ app.use(fileUpload({
 
 /*router*/
 // import router
-const teacherRouter = require('./Router/teacherRouter')
-const studentRouter = require('./Router/studentRouter')
-const studenMobileRouter = require('./Router/Mobile/studentMobileRouter')
-
-
-
-//create router with url api/teacher+ url in router file
-app.use('/api/teacher', teacherRouter)
-
-app.use('/api/student', studentRouter)
-app.use('/api/student', studenMobileRouter)
-    /*end router*/
 
 
 

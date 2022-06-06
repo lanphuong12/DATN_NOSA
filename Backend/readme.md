@@ -1,7 +1,7 @@
 # start server to dev : npm test
 # start server : npm start
 # create model from exiting database:https://github.com/sequelize/sequelize-auto
-## DO NOT run this : npx sequelize-auto -o "./models" -d StudentManagement -h 103.101.162.107 -u SA  -x U2kqZuK0syuLN4B6 -e mssql
+## DO NOT run this : npx sequelize-auto -o "./Model" -d BSNOSA -h (local) -u SA  -x Pig@120920 -e mssql
 # Socket 
 ## Client : https://socket.io/docs/v4/client-socket-instance/
 ## Server : https://socket.io/docs/v4/server-initialization/
