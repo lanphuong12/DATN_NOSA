@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Applicant.Applicant_Fragment_cvApplied">
+    tools:context=".Applicant.Fragment.Applicant_Fragment_cvApplied">
 
     <ListView
         android:layout_width="match_parent"
